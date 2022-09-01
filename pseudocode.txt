@@ -1,0 +1,13 @@
+
+variable =array containing list of sims
+variable = empty array
+extract data for table
+for each row in table
+    select sim_name , number
+    if the sim_name is found in the array of sims
+        if the sim_name is an array
+            add the number to the array
+        else 
+            create a new array
+            add the new array to the array in line 3
+            add the number to the array
