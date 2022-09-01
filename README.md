@@ -27,4 +27,10 @@ JavaScript
 Website(URL):
 https://en.wikipedia.org/wiki/Telephone_numbers_in_Nigeria
 
+Repo for Scrapped Data:
+https://github.com/Bitee-cd/Sim_checker_scrap_data
+
+Repo for Django App:
+
+
 
