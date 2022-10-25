@@ -9,5 +9,7 @@ for i in numbers:
         else:
             array_numbers[next]=[] 
             array_numbers[next].append(i)
-print(array_numbers)
+
+sim={"MTN":1,"Airtel":1,"Globacom":5,"Smile":6,"Multi-Links":7,"9Mobile":8,"Starcomms":9,"ZoomMobile":10}
+print(sim["MTN"])
 # this is what andy and i have been talking about

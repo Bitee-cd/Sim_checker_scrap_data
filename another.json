@@ -1,0 +1,4 @@
+[
+    {"model": "sim_app.phonenumber", "fields": {"sim_network": 4, "phone_number": "0908"}},
+    {"model": "sim_app.phonenumber",  "fields": {"sim_network": 2, "phone_number": "0907"}}
+]
