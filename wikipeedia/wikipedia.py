@@ -23,7 +23,7 @@ driver.maximize_window()
 
 #try connecting to the element with classname wikitable
 array_numbers=[]
-sim={"MTN":1,"Airtel":2,"Globacom":3,"Smile":4,"Multi-Links":5,"9Mobile":6,"Starcomms":7,"ZoomMobile":8,"Mtel":9}
+sim={"MTN":1,"Airtel":2,"Globacom":3,"Smile":4,"Multi-Links":5,"9mobile":6,"Starcomms":7,"ZoomMobile":8,"Mtel":9}
 try:
     section= WebDriverWait(driver,5).until(
         EC.presence_of_element_located((By.CLASS_NAME,"wikitable"))
@@ -42,11 +42,12 @@ try:
                 data={
                     "model":"sim_app.phonenumber",
                     "fields":{
-                        "sim_network":sim[next],
+                        "sim":sim[next],
                         "phone_number":i
                     }
                 }
-            array_numbers.append(data)
+             
+                array_numbers.append(data)
    
     # Serializing json
 
